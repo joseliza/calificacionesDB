@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="IMPARTE" directorySegmentName="seg_0" id="44C1C4BC-B26B-6709-2FDA-C0A77517B936">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:30 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C70CC5C7-BAF9-F145-0205-977A675174D3</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROF" id="19F2F155-9BE3-3082-961D-3801E29CE026">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOD" id="D3562E12-9114-A67B-BDD9-19C081D295B9">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURSO" id="E17B3127-7AF5-3AF8-2A80-7E7F2B848F64">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IMPARTE_PK" id="A54A64D6-812C-A289-0EB1-1044306C4003">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_IMPARTE_PROF" id="16C89745-B166-610D-4764-882053E977F6">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_IMPARTE_MOD" id="70DA4F73-EE1B-17C9-CE1D-2033F0923DBC">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IMPARTE_PK" id="E7266973-7D43-9229-6D9B-0E5F57CAF091">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<existingIndex>A54A64D6-812C-A289-0EB1-1044306C4003</existingIndex>
+<indexSegment>F06E5080-3275-6CAF-27DB-C5164B76644A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA6D290D-2CDD-9B9C-56E6-697DD10AFF05" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="ACT_CE">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>ACT_CE</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:29 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACT" id="F9723283-9A21-F312-9BDC-2D43673C83ED">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACT_CE</sourceObjSchema>
+<sourceObjName>ACT</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF73A587-FF5F-4DD2-E891-B2CAC8EB09BE" referredColumn="9974D4AB-123E-1253-0A37-ACF5F6320C8E"/>
+</associations>
+</Column>
+<Column name="CE" id="9844EB8D-0BF7-69AE-E9DE-C6EFFFC4BCF8">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACT_CE</sourceObjSchema>
+<sourceObjName>CE</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C076955D-7CA9-6EED-8E2F-9D23FEF4CF6B" referredColumn="694D414E-EA3F-1C41-08AB-6E7BADC0E362"/>
+</associations>
+</Column>
+<Column name="MOD" id="27D1D988-B868-E706-CE5B-90E37D1A1BCE">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACT_CE</sourceObjSchema>
+<sourceObjName>MOD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF73A587-FF5F-4DD2-E891-B2CAC8EB09BE" referredColumn="F2A7AA43-792D-2321-D8CA-14AA99096B4A"/>
+<colAssociation fkAssociation="C076955D-7CA9-6EED-8E2F-9D23FEF4CF6B" referredColumn="BEB75A04-7754-E7E0-AD8E-4EB7AB95BF30"/>
+</associations>
+</Column>
+<Column name="PMAX" id="C59E5CBB-69C2-00AD-DD67-854FDBB37ED8">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACT_CE</sourceObjSchema>
+<sourceObjName>PMAX</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UD" id="A8555A01-AFA3-264E-1B67-25D0C45F6D69">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACT_CE</sourceObjSchema>
+<sourceObjName>UD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF73A587-FF5F-4DD2-E891-B2CAC8EB09BE" referredColumn="90E982CE-9959-89CA-5662-140340F3F51C"/>
+</associations>
+</Column>
+<Column name="RA" id="86780810-5D0D-CC94-A532-75427631F524">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACT_CE</sourceObjSchema>
+<sourceObjName>RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C076955D-7CA9-6EED-8E2F-9D23FEF4CF6B" referredColumn="F29058B6-E019-6072-D00D-F8D38C1EB9FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BDBE92D-4646-604A-03AE-172C8B0A291A" name="ACT_CE_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>ACT_CE_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9723283-9A21-F312-9BDC-2D43673C83ED"/>
+<colUsage columnID="9844EB8D-0BF7-69AE-E9DE-C6EFFFC4BCF8"/>
+<colUsage columnID="27D1D988-B868-E706-CE5B-90E37D1A1BCE"/>
+<colUsage columnID="A8555A01-AFA3-264E-1B67-25D0C45F6D69"/>
+<colUsage columnID="86780810-5D0D-CC94-A532-75427631F524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72E6A5D6-4420-98AB-0950-616EE3300153" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="ACT_CE_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>ACT_CE_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9723283-9A21-F312-9BDC-2D43673C83ED"/>
+<colUsage columnID="9844EB8D-0BF7-69AE-E9DE-C6EFFFC4BCF8"/>
+<colUsage columnID="27D1D988-B868-E706-CE5B-90E37D1A1BCE"/>
+<colUsage columnID="A8555A01-AFA3-264E-1B67-25D0C45F6D69"/>
+<colUsage columnID="86780810-5D0D-CC94-A532-75427631F524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C58666C-C074-59C1-882C-BFFB6052E7E5" name="FK_ACT_CE_ACT">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9723283-9A21-F312-9BDC-2D43673C83ED"/>
+<colUsage columnID="A8555A01-AFA3-264E-1B67-25D0C45F6D69"/>
+<colUsage columnID="27D1D988-B868-E706-CE5B-90E37D1A1BCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6001E7D2-998E-CA0C-C2B5-441C673CDB4A" name="FK_ACT_CE_CE">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9844EB8D-0BF7-69AE-E9DE-C6EFFFC4BCF8"/>
+<colUsage columnID="86780810-5D0D-CC94-A532-75427631F524"/>
+<colUsage columnID="27D1D988-B868-E706-CE5B-90E37D1A1BCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

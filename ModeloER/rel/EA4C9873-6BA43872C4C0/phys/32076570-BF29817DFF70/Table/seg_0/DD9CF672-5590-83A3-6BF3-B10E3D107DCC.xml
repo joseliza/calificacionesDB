@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRUEBA" directorySegmentName="seg_0" id="DD9CF672-5590-83A3-6BF3-B10E3D107DCC">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C70CC5C7-BAF9-F145-0205-977A675174D3</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA" id="74BA1C83-453C-0831-1F7B-0B28ACACB86B">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESC_PRU" id="C79B9257-95ED-7968-159E-113F96C402BE">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRU" id="E3492E98-DB8A-6641-ECE6-88EFBC5F6518">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRUEBA_PK" id="29E90E0C-080E-1A33-9523-8C5A6393995E">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRUEBA_PK" id="783E7C60-ED50-E24B-81C3-A2BC1556CE1D">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<existingIndex>29E90E0C-080E-1A33-9523-8C5A6393995E</existingIndex>
+<indexSegment>F06E5080-3275-6CAF-27DB-C5164B76644A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

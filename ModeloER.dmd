@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloER" id="4B76F728-AD7A-6C03-CD50-D5867AE07975" version="3.5">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:37:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4B76F728-AD7A-6C03-CD50-D5867AE07975</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="44875C2F-BD06-6EB3-5459-1837E13BD816">
+<designStoragePath>/</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

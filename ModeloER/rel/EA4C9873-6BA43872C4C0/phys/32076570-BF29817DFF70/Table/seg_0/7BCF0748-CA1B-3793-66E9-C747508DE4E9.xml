@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACTIVIDAD" directorySegmentName="seg_0" id="7BCF0748-CA1B-3793-66E9-C747508DE4E9">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:30 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C70CC5C7-BAF9-F145-0205-977A675174D3</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESC_ACT" id="401AA6B5-3D5F-0D49-E7A0-7AF330F3B021">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UD" id="90E982CE-9959-89CA-5662-140340F3F51C">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACT" id="9974D4AB-123E-1253-0A37-ACF5F6320C8E">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_FIN" id="9BCE54E0-C249-A0B5-ADFF-A4BE3A5B882F">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INI" id="D3A90065-175D-B2FA-5296-85EE953E44E5">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOD" id="F2A7AA43-792D-2321-D8CA-14AA99096B4A">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACTIVIDAD_PK" id="AAB5C539-A198-0C84-77FE-52572B91D071">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ACTIVIDAD_UD" id="FD549DA1-C094-F1D8-680D-88A03BF7159D">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACTIVIDAD_PK" id="6A16C4E3-8CD2-37B8-572D-AC0CAC11F8E3">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<existingIndex>AAB5C539-A198-0C84-77FE-52572B91D071</existingIndex>
+<indexSegment>F06E5080-3275-6CAF-27DB-C5164B76644A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

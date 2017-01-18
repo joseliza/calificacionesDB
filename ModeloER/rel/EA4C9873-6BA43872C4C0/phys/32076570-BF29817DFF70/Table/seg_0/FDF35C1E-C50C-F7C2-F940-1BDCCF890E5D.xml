@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ALUMNO" directorySegmentName="seg_0" id="FDF35C1E-C50C-F7C2-F940-1BDCCF890E5D">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:30 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C70CC5C7-BAF9-F145-0205-977A675174D3</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="1E334F08-AA38-9848-A98A-E7759776E5EC">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="AAD2E9B3-BEC5-5495-F515-C6B96E791636">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDOS" id="B1D95D21-6305-7FC3-17FD-3B8B02F40625">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NAC" id="BF8DF951-B77A-A1E1-7B2B-40A8C1029122">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI" id="F5B11111-1978-E97A-1BDC-279D158030D5">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ALUMNO_PK" id="A1B3895A-E283-CB25-CA24-B8CBBA2F3A4A">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<schemaObject>7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5</schemaObject>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ALUMNO_PK" id="CD288E21-AB61-0391-E902-01C579367C7C">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<segment>F06E5080-3275-6CAF-27DB-C5164B76644A</segment>
+<tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
+<existingIndex>A1B3895A-E283-CB25-CA24-B8CBBA2F3A4A</existingIndex>
+<indexSegment>F06E5080-3275-6CAF-27DB-C5164B76644A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

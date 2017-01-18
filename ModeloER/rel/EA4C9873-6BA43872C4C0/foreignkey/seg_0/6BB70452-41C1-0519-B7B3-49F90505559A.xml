@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6BB70452-41C1-0519-B7B3-49F90505559A" containerWithKeyObject="44C1C4BC-B26B-6709-2FDA-C0A77517B936" localFKIndex="16C89745-B166-610D-4764-882053E977F6" name="FK_IMPARTE_PROF">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>FK_IMPARTE_PROF</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1CD92CA9-17B0-D325-8CD6-BC16F98A8C78</referredTableID>
+<keyObject>40537185-6669-8639-99F0-32BA0418CE07</keyObject>
+<referredKeyID>40537185-6669-8639-99F0-32BA0418CE07</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
