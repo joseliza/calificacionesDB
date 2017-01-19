@@ -61,6 +61,24 @@
 <colAssociation fkAssociation="F9896D71-4894-1B7D-B618-E8A53E90ABB1" referredColumn="DD46F293-8C3E-03EC-75CF-0AF7F939A0B2"/>
 </associations>
 </Column>
+<Column name="RA" id="90526F1E-A462-1E41-0CC1-C17094A19963">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>UD_PRUEBA</sourceObjSchema>
+<sourceObjName>RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-19 10:41:44 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<importedID>317AE927-A441-044E-2895-AAA69130CBDC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9896D71-4894-1B7D-B618-E8A53E90ABB1" referredColumn="D9B6F820-F949-716F-FB29-B733F89DDE3C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5DCCE270-8C4F-7D03-F11E-E33AAB5D3925" name="UD_PRUEBA_PK">
@@ -77,6 +95,7 @@
 <colUsage columnID="E917FED9-815A-9CF2-9BDF-4280488D56A6"/>
 <colUsage columnID="4B3A0134-E89F-A200-21AE-5E27CC289ABE"/>
 <colUsage columnID="2E29A931-66B8-C809-91B4-DF8E92037FAF"/>
+<colUsage columnID="90526F1E-A462-1E41-0CC1-C17094A19963"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="11239569-1A64-19AB-FAC3-583349F28B97" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="UD_PRUEBA_PK">
@@ -92,6 +111,7 @@
 <colUsage columnID="E917FED9-815A-9CF2-9BDF-4280488D56A6"/>
 <colUsage columnID="4B3A0134-E89F-A200-21AE-5E27CC289ABE"/>
 <colUsage columnID="2E29A931-66B8-C809-91B4-DF8E92037FAF"/>
+<colUsage columnID="90526F1E-A462-1E41-0CC1-C17094A19963"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="372651EA-FAC1-4A33-1A96-642CE14916C0" name="FK_UD_PRUEBA_PRU">
@@ -113,6 +133,7 @@
 <indexColumnUsage>
 <colUsage columnID="E917FED9-815A-9CF2-9BDF-4280488D56A6"/>
 <colUsage columnID="2E29A931-66B8-C809-91B4-DF8E92037FAF"/>
+<colUsage columnID="90526F1E-A462-1E41-0CC1-C17094A19963"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

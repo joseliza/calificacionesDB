@@ -9,8 +9,6 @@
 <importedID>FFD93B50-16EF-0AB0-2005-89C6E7DF45C2</importedID>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>7F37B935-F964-F0DD-F688-EEBEA0F1A6E7</referredTableID>
-<keyObject>B670BA74-C1B3-96DD-E552-2D97AC3809B6</keyObject>
-<referredKeyID>B670BA74-C1B3-96DD-E552-2D97AC3809B6</referredKeyID>
 <mandatory>true</mandatory>
 <transferable>true</transferable>
 <rely>false</rely>

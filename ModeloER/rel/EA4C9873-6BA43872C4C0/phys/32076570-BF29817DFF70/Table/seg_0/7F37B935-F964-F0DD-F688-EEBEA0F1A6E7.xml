@@ -38,13 +38,6 @@
 <tableSpace>8F9C8F6B-3B72-FD5D-2CB7-D2946C3E0C85</tableSpace>
 </IndexProxy>
 </indexProxies>
-<foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RA_MOD" id="C0437C64-7C79-775B-F565-10E229E2D015">
-<createdBy>joseliza</createdBy>
-<createdTime>2017-01-18 17:38:34 UTC</createdTime>
-<ownerDesignName>ModeloER</ownerDesignName>
-</ForeignKey>
-</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RA_PK" id="DD97A5ED-9639-C7C4-1963-E52F10D2FC58">
 <createdBy>joseliza</createdBy>

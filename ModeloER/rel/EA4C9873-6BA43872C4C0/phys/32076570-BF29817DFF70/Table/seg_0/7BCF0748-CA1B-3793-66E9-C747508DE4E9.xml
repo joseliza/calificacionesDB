@@ -37,6 +37,11 @@
 <createdTime>2017-01-18 17:38:31 UTC</createdTime>
 <ownerDesignName>ModeloER</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="RA" id="EBE20126-BC05-9F2E-A4E1-0A65599D57E5">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-19 10:41:44 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="MOD" id="F2A7AA43-792D-2321-D8CA-14AA99096B4A">
 <createdBy>joseliza</createdBy>
 <createdTime>2017-01-18 17:38:31 UTC</createdTime>

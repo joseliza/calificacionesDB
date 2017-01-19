@@ -22,6 +22,11 @@
 <createdTime>2017-01-18 17:38:31 UTC</createdTime>
 <ownerDesignName>ModeloER</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="RA" id="D9B6F820-F949-716F-FB29-B733F89DDE3C">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-19 10:41:44 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="MOD" id="DD46F293-8C3E-03EC-75CF-0AF7F939A0B2">
 <createdBy>joseliza</createdBy>
 <createdTime>2017-01-18 17:38:31 UTC</createdTime>
@@ -47,6 +52,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UD_MOD" id="2DF7457C-F71C-7619-4F31-070DF3B34C47">
 <createdBy>joseliza</createdBy>
 <createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UD_RA" id="5B1D2B0A-D48B-C4D2-06E3-13CDA2276A4B">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-19 10:41:44 UTC</createdTime>
 <ownerDesignName>ModeloER</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

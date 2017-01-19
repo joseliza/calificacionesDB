@@ -121,7 +121,6 @@
 <createdBy>joseliza</createdBy>
 <createdTime>2017-01-18 17:38:31 UTC</createdTime>
 <ownerDesignName>ModeloER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -130,6 +129,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="8B3A8324-3056-6B40-FE14-8893B14E82C9" referredColumn="F29058B6-E019-6072-D00D-F8D38C1EB9FC"/>
+<colAssociation fkAssociation="101BF3FE-B3BC-3F5B-7A8B-8E6ED156AAEC" referredColumn="EBE20126-BC05-9F2E-A4E1-0A65599D57E5"/>
 </associations>
 </Column>
 </columns>
@@ -150,6 +150,7 @@
 <colUsage columnID="759EB6D1-E1AF-255C-207F-DC3979EA1B71"/>
 <colUsage columnID="EC10B705-51C3-CF78-401A-F36346AEBC2F"/>
 <colUsage columnID="EB6617E4-1557-FA33-54A7-4A991E229FB6"/>
+<colUsage columnID="687138D7-3B89-F4D8-DBC7-F7B7E2C87DA9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="E957B442-B8C2-3839-6F29-81D0CBD9457C" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="AL_ACT_PK">
@@ -167,6 +168,7 @@
 <colUsage columnID="759EB6D1-E1AF-255C-207F-DC3979EA1B71"/>
 <colUsage columnID="EC10B705-51C3-CF78-401A-F36346AEBC2F"/>
 <colUsage columnID="EB6617E4-1557-FA33-54A7-4A991E229FB6"/>
+<colUsage columnID="687138D7-3B89-F4D8-DBC7-F7B7E2C87DA9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="412875F4-7086-E3F2-6F4B-E934AA25E68B" name="FK_AL_ACT_ACT">
@@ -179,6 +181,7 @@
 <colUsage columnID="95688DC2-A09F-A23E-9B4D-77559030BC15"/>
 <colUsage columnID="759EB6D1-E1AF-255C-207F-DC3979EA1B71"/>
 <colUsage columnID="EC10B705-51C3-CF78-401A-F36346AEBC2F"/>
+<colUsage columnID="687138D7-3B89-F4D8-DBC7-F7B7E2C87DA9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="45E61F79-6BB3-600C-7445-956A6E32EB6C" name="FK_AL_ACT_AL">

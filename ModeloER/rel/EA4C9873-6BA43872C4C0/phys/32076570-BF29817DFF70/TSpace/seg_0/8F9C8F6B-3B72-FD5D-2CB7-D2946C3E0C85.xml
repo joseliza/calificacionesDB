@@ -14,22 +14,22 @@
 <encrypt>NO</encrypt>
 <fileType>SMALLFILE</fileType>
 <dataFiles>
-<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-1.ORA" id="F477B4B6-A38A-30B9-6243-6C6D8F82E18A">
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-1.ORA" id="335D8D39-425C-E6B2-3178-CBA77179C61D">
 <sourceConnName>Calificaciones1@xe</sourceConnName>
 <sourceObjName>C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-1.ORA</sourceObjName>
 <createdBy>joseliza</createdBy>
-<createdTime>2017-01-18 17:52:39 UTC</createdTime>
+<createdTime>2017-01-19 11:03:09 UTC</createdTime>
 <ownerDesignName>ModeloER</ownerDesignName>
 <autoextend>ON</autoextend>
 <fileName>C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-1.ORA</fileName>
 <nextBlockSize>8</nextBlockSize>
 <size>2048</size>
 </DataFile>
-<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-2.ORA" id="F6DA116E-A1F9-2D81-0C6B-39E5B581754B">
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-2.ORA" id="CF8BD856-350E-7A76-5372-2C17264F4434">
 <sourceConnName>Calificaciones1@xe</sourceConnName>
 <sourceObjName>C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-2.ORA</sourceObjName>
 <createdBy>joseliza</createdBy>
-<createdTime>2017-01-18 17:52:39 UTC</createdTime>
+<createdTime>2017-01-19 11:03:09 UTC</createdTime>
 <ownerDesignName>ModeloER</ownerDesignName>
 <autoextend>ON</autoextend>
 <fileName>C:\ORACLEXE\EJEMPLOS\CALIFICACIONES1\CALIFICACIONES1-2.ORA</fileName>
