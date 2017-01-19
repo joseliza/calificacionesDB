@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="CALIFICACIONES1" directorySegmentName="seg_0" id="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:30 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<importedID>1A83D3D2-981A-B6A4-A486-B1F3B21F3B69</importedID>
+</SchemaObject>

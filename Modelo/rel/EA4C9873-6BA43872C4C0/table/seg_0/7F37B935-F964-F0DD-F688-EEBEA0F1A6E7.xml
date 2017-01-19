@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F37B935-F964-F0DD-F688-EEBEA0F1A6E7" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="RA">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RA" id="7F1EFC41-7F16-EBAE-66C9-94D0AB791F7F">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>RA</sourceObjSchema>
+<sourceObjName>RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODU" id="0F3F0A46-6121-26AC-CD19-6FE59E656519">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>RA</sourceObjSchema>
+<sourceObjName>MOD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_RA" id="2674E408-2CC5-E363-AB0C-718326CF78CD">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>RA</sourceObjSchema>
+<sourceObjName>DESC_RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD97A5ED-9639-C7C4-1963-E52F10D2FC58" name="RA_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>RA_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F1EFC41-7F16-EBAE-66C9-94D0AB791F7F"/>
+<colUsage columnID="0F3F0A46-6121-26AC-CD19-6FE59E656519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B670BA74-C1B3-96DD-E552-2D97AC3809B6" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="RA_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>RA_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F1EFC41-7F16-EBAE-66C9-94D0AB791F7F"/>
+<colUsage columnID="0F3F0A46-6121-26AC-CD19-6FE59E656519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B9E8C82-FBF7-14B5-969C-7953DCECE4F8" containerWithKeyObject="D7F7564B-9896-E7A4-7448-9D0B43641C73" localFKIndex="1E20C872-18C8-001D-670E-914E32E8B612" name="FK_MATRICULA_MOD">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>FK_MATRICULA_MOD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EEE1171-3E03-753B-3C93-A1EF3BDE2367</referredTableID>
+<keyObject>4AC9860D-61E2-12D9-2B76-6CB339999136</keyObject>
+<referredKeyID>4AC9860D-61E2-12D9-2B76-6CB339999136</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

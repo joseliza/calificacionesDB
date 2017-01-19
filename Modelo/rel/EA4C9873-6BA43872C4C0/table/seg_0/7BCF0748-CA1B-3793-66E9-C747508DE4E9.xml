@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BCF0748-CA1B-3793-66E9-C747508DE4E9" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="ACTIVIDAD">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>ACTIVIDAD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:30 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACT" id="9974D4AB-123E-1253-0A37-ACF5F6320C8E">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>ACT</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UD" id="90E982CE-9959-89CA-5662-140340F3F51C">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>UD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0EB641A-7021-6D7D-CD2E-FA6C0C02194D" referredColumn="E57F2AE8-5941-0D88-6DBB-34247DFE70A8"/>
+</associations>
+</Column>
+<Column name="MODU" id="F2A7AA43-792D-2321-D8CA-14AA99096B4A">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>MOD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0EB641A-7021-6D7D-CD2E-FA6C0C02194D" referredColumn="DD46F293-8C3E-03EC-75CF-0AF7F939A0B2"/>
+</associations>
+</Column>
+<Column name="DESC_ACT" id="401AA6B5-3D5F-0D49-E7A0-7AF330F3B021">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>DESC_ACT</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INI" id="D3A90065-175D-B2FA-5296-85EE953E44E5">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>FECHA_INI</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="9BCE54E0-C249-A0B5-ADFF-A4BE3A5B882F">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>FECHA_FIN</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RA" id="EBE20126-BC05-9F2E-A4E1-0A65599D57E5">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>ACTIVIDAD</sourceObjSchema>
+<sourceObjName>RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-19 10:41:44 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<importedID>D7705AAE-A459-4AA1-B16A-25C11D2A1BB8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0EB641A-7021-6D7D-CD2E-FA6C0C02194D" referredColumn="D9B6F820-F949-716F-FB29-B733F89DDE3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A16C4E3-8CD2-37B8-572D-AC0CAC11F8E3" name="ACTIVIDAD_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>ACTIVIDAD_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9974D4AB-123E-1253-0A37-ACF5F6320C8E"/>
+<colUsage columnID="90E982CE-9959-89CA-5662-140340F3F51C"/>
+<colUsage columnID="F2A7AA43-792D-2321-D8CA-14AA99096B4A"/>
+<colUsage columnID="EBE20126-BC05-9F2E-A4E1-0A65599D57E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAB5C539-A198-0C84-77FE-52572B91D071" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="ACTIVIDAD_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>ACTIVIDAD_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9974D4AB-123E-1253-0A37-ACF5F6320C8E"/>
+<colUsage columnID="90E982CE-9959-89CA-5662-140340F3F51C"/>
+<colUsage columnID="F2A7AA43-792D-2321-D8CA-14AA99096B4A"/>
+<colUsage columnID="EBE20126-BC05-9F2E-A4E1-0A65599D57E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD549DA1-C094-F1D8-680D-88A03BF7159D" name="FK_ACTIVIDAD_UD">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90E982CE-9959-89CA-5662-140340F3F51C"/>
+<colUsage columnID="F2A7AA43-792D-2321-D8CA-14AA99096B4A"/>
+<colUsage columnID="EBE20126-BC05-9F2E-A4E1-0A65599D57E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

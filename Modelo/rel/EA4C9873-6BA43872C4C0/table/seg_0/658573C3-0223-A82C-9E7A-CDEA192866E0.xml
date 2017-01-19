@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="658573C3-0223-A82C-9E7A-CDEA192866E0" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="UD_PRUEBA">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>UD_PRUEBA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UD" id="E917FED9-815A-9CF2-9BDF-4280488D56A6">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>UD_PRUEBA</sourceObjSchema>
+<sourceObjName>UD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9896D71-4894-1B7D-B618-E8A53E90ABB1" referredColumn="E57F2AE8-5941-0D88-6DBB-34247DFE70A8"/>
+</associations>
+</Column>
+<Column name="PRU" id="4B3A0134-E89F-A200-21AE-5E27CC289ABE">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>UD_PRUEBA</sourceObjSchema>
+<sourceObjName>PRU</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC7E39A4-285A-4DD5-22EF-94253C881E7D" referredColumn="E3492E98-DB8A-6641-ECE6-88EFBC5F6518"/>
+</associations>
+</Column>
+<Column name="MODU" id="2E29A931-66B8-C809-91B4-DF8E92037FAF">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>UD_PRUEBA</sourceObjSchema>
+<sourceObjName>MOD</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:31 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9896D71-4894-1B7D-B618-E8A53E90ABB1" referredColumn="DD46F293-8C3E-03EC-75CF-0AF7F939A0B2"/>
+</associations>
+</Column>
+<Column name="RA" id="90526F1E-A462-1E41-0CC1-C17094A19963">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>UD_PRUEBA</sourceObjSchema>
+<sourceObjName>RA</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-19 10:41:44 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<importedID>317AE927-A441-044E-2895-AAA69130CBDC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9896D71-4894-1B7D-B618-E8A53E90ABB1" referredColumn="D9B6F820-F949-716F-FB29-B733F89DDE3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DCCE270-8C4F-7D03-F11E-E33AAB5D3925" name="UD_PRUEBA_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>UD_PRUEBA_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:33 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E917FED9-815A-9CF2-9BDF-4280488D56A6"/>
+<colUsage columnID="4B3A0134-E89F-A200-21AE-5E27CC289ABE"/>
+<colUsage columnID="2E29A931-66B8-C809-91B4-DF8E92037FAF"/>
+<colUsage columnID="90526F1E-A462-1E41-0CC1-C17094A19963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11239569-1A64-19AB-FAC3-583349F28B97" schemaObject="7A4C6AE9-1D31-8BFC-455A-BDCD56EEAAD5" name="UD_PRUEBA_PK">
+<sourceConnName>Calificaciones1@xe</sourceConnName>
+<sourceObjSchema>CALIFICACIONES1</sourceObjSchema>
+<sourceObjName>UD_PRUEBA_PK</sourceObjName>
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:32 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E917FED9-815A-9CF2-9BDF-4280488D56A6"/>
+<colUsage columnID="4B3A0134-E89F-A200-21AE-5E27CC289ABE"/>
+<colUsage columnID="2E29A931-66B8-C809-91B4-DF8E92037FAF"/>
+<colUsage columnID="90526F1E-A462-1E41-0CC1-C17094A19963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="372651EA-FAC1-4A33-1A96-642CE14916C0" name="FK_UD_PRUEBA_PRU">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B3A0134-E89F-A200-21AE-5E27CC289ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBBCE001-A2BD-7C8A-07A9-5A4FC61E727F" name="FK_UD_PRUEBA_UD">
+<createdBy>joseliza</createdBy>
+<createdTime>2017-01-18 17:38:34 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E917FED9-815A-9CF2-9BDF-4280488D56A6"/>
+<colUsage columnID="2E29A931-66B8-C809-91B4-DF8E92037FAF"/>
+<colUsage columnID="90526F1E-A462-1E41-0CC1-C17094A19963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
