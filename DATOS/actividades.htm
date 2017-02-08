@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "ACT"; }
+td:nth-of-type(1):before { content: "UD"; }
+td:nth-of-type(2):before { content: "MODU"; }
+td:nth-of-type(3):before { content: "DESC_ACT"; }
+td:nth-of-type(4):before { content: "FECHA_INI"; }
+td:nth-of-type(5):before { content: "FECHA_FIN"; }
+td:nth-of-type(6):before { content: "RA"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>ACT</th>
+	<th>UD</th>
+	<th>MODU</th>
+	<th>DESC_ACT</th>
+	<th>FECHA_INI</th>
+	<th>FECHA_FIN</th>
+	<th>RA</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td align="right">0</td>
+<td>01</td>
+<td>0227</td>
+<td>PREGUNTAS DE CLASE DHCP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>01</td>
+<td>0227</td>
+<td>FICHA 1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">2</td>
+<td>01</td>
+<td>0227</td>
+<td>FICHA 2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">3</td>
+<td>01</td>
+<td>0227</td>
+<td>PRÁCTICA W2008</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">0</td>
+<td>02</td>
+<td>0227</td>
+<td>PREGUNTAS DE CLASE DNS</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>02</td>
+<td>0227</td>
+<td>EJERCICIO ESQUEMA RESOLUCIÓN NOMBRES</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">2</td>
+<td>02</td>
+<td>0227</td>
+<td>PRÁCTICA 1. ZONA MAESTRA USANDO BIND9 Y WEBMIN</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">3</td>
+<td>02</td>
+<td>0227</td>
+<td>PRÁCTICA 2. ZONA MAESTRA USANDO BIND9, DHCP Y WEBMIN</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">0</td>
+<td>03</td>
+<td>0227</td>
+<td>PREGUNTAS DE CLASE SSH</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>06</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>03</td>
+<td>0227</td>
+<td>PRÁCTICA 1. USO DE SSH</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>06</td>
+	</tr>
+	<tr>
+<td align="right">0</td>
+<td>01</td>
+<td>0372</td>
+<td>PREGUNTAS DE CLASE UNIDAD 1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>02</td>
+<td>0372</td>
+<td>FICHA 1. DIAGRAMA E/R</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">2</td>
+<td>02</td>
+<td>0372</td>
+<td>FICHA 2. DIAGRAMA E/R INMOBILIARIAS</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">3</td>
+<td>02</td>
+<td>0372</td>
+<td>FICHA 3. ENTREGA EJERCICIOS 1 MODELO RELACIONAL EN TOAD</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>03</td>
+<td>0372</td>
+<td>FICHA 3 DE LA UNIDAD 2. ENTREGA EJERCICIOS 1 MODELO RELACIONAL EN TOAD</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">0</td>
+<td>04</td>
+<td>0372</td>
+<td>PREGUNTAS DE CLASE UNIDAD 4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>04</td>
+<td>0372</td>
+<td>PRÁCTICA 01. DDL CREACIÓN DE TABLAS ESQUEMA PINACOTECAS</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">2</td>
+<td>04</td>
+<td>0372</td>
+<td>PRÁCTICA 02. DDL STARTREK</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">3</td>
+<td>04</td>
+<td>0372</td>
+<td>PRÁCTICA 03. ENTREGA EJERCICIO STARTREK. EJERCICIOS 2, 3 Y 4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>01</td>
+<td>0377</td>
+<td>PRÁCTICA DE INSTALACIÓN DE ORACLE11GR2 ENTERPRISE</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">2</td>
+<td>01</td>
+<td>0377</td>
+<td>FICHA 01 ARQUITECTURA ORACLE</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">3</td>
+<td>01</td>
+<td>0377</td>
+<td>FICHA 02 REPASO CONSULTAS SCOTT</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>01</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>02</td>
+<td>0377</td>
+<td>PRÁCTICA DE INSTALACIÓN DE ORACLE11GR2 CLIENT</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>02</td>
+	</tr>
+	<tr>
+<td align="right">2</td>
+<td>03</td>
+<td>0377</td>
+<td>USUARIOS, PRIVILEGIOS, ROLES Y PERFILES</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">3</td>
+<td>03</td>
+<td>0377</td>
+<td>USUARIOS Y TABLESPACES</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">4</td>
+<td>03</td>
+<td>0377</td>
+<td>GESTIÓN DE USUARIOS Y TABLESPACES</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">4</td>
+<td>04</td>
+<td>0372</td>
+<td>EJERCICIOS REPASO MODELO FÍSICO</td>
+<td>16/01/17</td>
+<td>20/01/17</td>
+<td>03</td>
+	</tr>
+	<tr>
+<td align="right">1</td>
+<td>04</td>
+<td>0377</td>
+<td>EJERCICIOS REPASO PL</td>
+<td>16/01/17</td>
+<td>24/01/17</td>
+<td>04</td>
+	</tr>
+</tbody></table><!-- SQL:
+select ACT ACT, UD UD, MODU MODU, DESC_ACT DESC_ACT, FECHA_INI FECHA_INI, FECHA_FIN FECHA_FIN, RA RA from (select * from "CALIFICACIONES1"."ACTIVIDAD")--></body></html>
