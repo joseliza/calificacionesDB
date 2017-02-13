@@ -8,3 +8,9 @@ AND UD='05' AND RA='04' and act='02'
 ORDER BY APELLIDOS, UD, ACT, CE;
 --OTRO DISPARADOR NECESARIO ES QUE UN ALUMNO NO PUEDE TENER MÁS NOTA EN UN CE
 --QUE EL MÁXIMO ESTABLECIDO PARA ESA ACTIVIDAD
+
+--EXTRAEMOS DATOS DE LAS PRUEBAS
+select prueba.desc_pru, ud, p.pru, p.modu, p.ra, ce.ce, 0 from prueba, prueba_ud_ce p, ce
+where p.ra = ce.ra and p.modu=ce.modu and p.pru=prueba.pru;
+
+--DEBERÍAMOS TENER UNA COLUMNA PMAX PARA CADA CRITERIO DE EVALUACIÓN. DEBERÍA SER OTRA TABLA (CE, RA, MODU, PMAX)
