@@ -9,9 +9,9 @@ and act_ce.act=al_act.act
 and al_act.ud='05' and al_act.modu='0372' and al_act.act=5;
 
 --PUNTOS JUGADOS EN EN MÓDULO XXXX, RA XX
-CREATE OR REPLACE VIEW JUGADOS_0372_04 AS select ce.modu, ce.ra, ce.ce, ce.desc_ce, ce.pmax, sum(nvl(act_ce.pmax,0)) as jugados
+CREATE OR REPLACE VIEW JUGADOS_0377_04 AS select ce.modu, ce.ra, ce.ce, ce.desc_ce, ce.pmax, sum(nvl(act_ce.pmax,0)) as jugados
 from ce, act_ce
 where ce.ce = act_ce.ce(+) and ce.ra=act_ce.ra(+) and ce.modu=act_ce.modu(+)
-and ce.modu='0372' and ce.ra='04'
+and ce.modu='0377' and ce.ra='04'
 group by ce.modu, ce.ra, ce.ce, ce.desc_ce, ce.pmax
 order by ce.ce;
